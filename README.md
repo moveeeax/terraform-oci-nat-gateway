@@ -8,7 +8,7 @@ internet for outbound-only traffic.
 
 ```hcl
 module "nat_gateway" {
-  source = "github.com/moveeeax/terraform-oci-nat-gateway"
+  source = "github.com/moveeeax/terraform-oci-nat-gateway?ref=v1.0.0"
 
   compartment_id = var.compartment_id
   vcn_id         = var.vcn_id
