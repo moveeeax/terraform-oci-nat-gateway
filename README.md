@@ -85,3 +85,7 @@ itself still supports >= 1.5.
 ## License
 
 [MIT](LICENSE)
+
+---
+
+**Archived on 2026-11-05.** merge into terraform-oci-vcn: single-resource pass-through of oci_core_nat_gateway; NAT is created with the VCN in practice. The scope moves to [terraform-oci-vcn](https://github.com/moveeeax/terraform-oci-vcn/issues/4).
